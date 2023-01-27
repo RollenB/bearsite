@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bear Site</title>
+</head>
+
+<body>
+    <header class="nav">
+        <img class="bearlogo" src="logo.png" alt="logo">
+        <div class="nav1">
+            <a class="links" href="">Home</a>
+            <a class="links" href="">About</a>
+            <a class="links" href="">Contact</a>
+            <a class="links" href="">Services</a>
+            <a class="links" href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="facebook"></a>
+            <a class="links" href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="twitter"></a>
+            <a class="links" href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="youtube"></a>
+        </div>
+
+    </header>
+    <div class="header">
+        <h1 class="title">Lorem ipsum dolor sit amet consectetur.</h1>
+        <p class="subTitle">Vestibulum tortor metus, eleifend vel dui vel, pharetra element</p>
+        <button class="btnCon" type="button">CONTACT</button>
+    </div>
+    <div class="Text1">
+        <h2 class="title Text2">This is a slicing test.</h2>
+        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna.</p>
+        <p class="subtext">Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis diam nunc sit amet tellus.
+        </p>
+    </div>
+    <div class="columnLayout">
+        <div class="col">
+            <h2 class="title Text2">This is a 2 column layout.</h2>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum port pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna.<br><br> Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis diam nunc sit amet tellus.
+            </p>
+        </div>
+        <div class="col">
+            <h2 class="title Text2">Ain't it?</h2>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna.<br><br> Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis diam nunc sit amet tellus.
+            </p>
+        </div>
+    </div>
+    <div class="form">
+        <div class="formcont">
+            <div class="formText">
+                <h2 class="title Text2 formTitle">This is Wrapped</h2>
+                <p class="Ftxt">Aenean ornare mi ac sodales varius. Ut consequat lacus in erat tincidunt vulputate. Proin vel quam sagittis, aliquet diam eu, sodales justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae egestas risus. Maecenas fringilla nisl a quam luctus consectetur.<br><br> Nulla ac lorem tincidunt, rhoncus tortor vitae, ultricies purus. Etiam ornare tempor lorem sed auctor. Phasellus justo lacus, lacinia eu mattis quis, congue vel nulla. Duis volutpat aliquet mi sit amet accumsan.<br><br> Phasellus ut lacus mollis, efficitur purus sed, pharetra mauris. Donec id quam vitae nibh congue finibus. Sed diam dui, aliquam at pulvinar nect porttitor at turpis.<br><br> Donec arcu tellus, fringilla id purus ac, fermentum faucibus quam. Sed et urna mattis lorem sollicitudin scelerisque sit amet eu eros. Duis lobortis sapien sit amet ullamcorper congue. Nulla accumsan odio pellentesque arcu condimentum convallis. Sed dignissim tincidunt purus, ac condimentum quam.<br><br> Integer ut nunc auctor quam porttitor varius in in sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mi quam, volutpat ac varius vel. sodales ut libero. Orci varius natoque penatibus et magnis dis parturient montes. nascetur ridiculus mus. Nam ac dapibus diam. vel aliquet ex. Morbi tincidunt dictum bibendum.
+                </p>
+            </div>
+
+            <div class="Form">
+                <h1 class="table">Get in touch.</h1>
+                <form action="post">
+                    <div class="Inputs">
+                        <label for="name">Your name</label>
+                        <br>
+                        <input type="name" name="name" class="Input" required>
+                    </div>
+                    <div class="Inputs">
+                        <label for="email">Your email</label>
+                        <br>
+                        <input type="email" name="email" class="Input" required>
+                    </div>
+                    <div class="Inputs">
+                        <label for="phone">Your phone</label>
+                        <br>
+                        <input placeholder="Code" type="text" class="code"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                            required>
+                        <input placeholder="Phone" type="tel" name="phone" class="number"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                            required>
+                    </div>
+                    <input type="submit" class="formbtn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="col1">
+            <img class="carlocab" src="carlocab.png" alt="carlocab">
+            <p class="footertxt">Copyright © 2017 Carl Ocab Internet Marketing Services • Privacy Policy • Contact Us</p>
+        </div>
+        <div class="col2">
+            <p class="footertxt">5 La Carlota St., Alabang Hills Village, Cupmg. Muntinlupa 1771, Metro Manila,
+                Philippines</p>
+            <p class="footertxt">US: (800) 765-2158 Philippines 463 (917) 833-960</p>
+        </div>
+    </footer>
+
+</body>
+</html>

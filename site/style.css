@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("/fonts/Proxima Nova Regular.ttf");
+}
+
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("/fonts/Proxima Nova Light.ttf");
+}
+
+@font-face {
+    font-family: "STMGoudy";
+    src: url("/fonts/SortsMillGoudy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Regular.ttf");
+}
+
+body {
+    margin: 0px;
+}
+
+.white {
+    color: white;
+}
+
+.nav {
+    background-color: black;
+    text-align: right;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-family: "ProximaNovaRegular";
+}
+
+.bearlogo {
+    padding: 0px;
+    float: left;
+    width: 140px;
+    margin-left: 10px;
+}
+
+.header {
+    text-align: center;
+    padding: 180px 0px 340px;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight";
+    font-size: 45px;
+}
+
+.subTitle {
+    font-size: 20px;
+    font-family: "STMGoudy";
+    color: black;
+}
+
+.btnCon {
+    font-family: "ProximaNovaRegular";
+    border: 0px;
+    border-radius: 3%;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding: 15px 30px;
+    letter-spacing: 3px;
+}
+
+.Text1 {
+    text-align: center;
+    padding: 2.5em 21.25em;
+}
+
+.Text2 {
+    font-size: 35px;
+}
+
+.subtext {
+    font-family: "Lato";
+    color: gray;
+    line-height: 1.5;
+}
+
+.formText {
+    margin-right: 25px;
+}
+
+.formTitle {
+    margin-top: 10px;
+}
+
+.Ftxt {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Lato";
+}
+
+.columnLayout {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+}
+
+.formcont {
+    margin: 50px 50px;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(223, 233, 208);
+}
+
+.Form {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.table {
+    text-align: center;
+    font-family: "STMGoudy";
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #b4b4b4;
+}
+
+form {
+    padding:20px;
+}
+
+label {
+    font-family: "Lato";
+    font-size: small;
+}
+
+.Input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.code {
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.number {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    width: 78%;
+}
+
+.formbtn {
+    border: 0px;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'ProximaNovaRegular';
+    font-weight:normal;
+    background-color: #ff9100;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 20px 50px;
+    background-color: black;
+    color: gray;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Lato';
+    font-size: 10px;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col2 {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.footertxt {
+    margin: 1px;
+}
+
+.col1 .carlocab{
+    size: 10px;
+}
